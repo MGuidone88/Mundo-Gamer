@@ -1,0 +1,56 @@
+
+/*CONSOLAS*/
+.consola {
+    color: $whiteColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    min-height: 600px;
+    padding: $basic;
+    margin-bottom: $basic;
+    border-radius: 8px;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+
+    h3 {
+        text-align: center;
+        color: $secondayColor;
+    }
+}
+
+.consola:hover {
+    box-shadow: 0px 0px 20px $primaryColor;
+    box-shadow: 0px 0px 10px $secondayColor;
+}
+
+.precio {
+    text-align: end;
+}
+
+strong {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.imgConsola {
+    height: $full;
+    width: $full;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.main-consolas {
+    background-color: $tercaryColor;
+    color: $whiteColor;
+    padding: $basic;
+
+    h2 {
+        text-align: center;
+        text-shadow: 5px 5px 6px $blackColor;
+        padding-top: $basic;
+        padding-bottom: $basic;
+    }
+}
+

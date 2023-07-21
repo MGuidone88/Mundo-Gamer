@@ -1,0 +1,49 @@
+/*JUEGOS*/
+.juego {
+    max-height: 200px;
+    max-width: $full;
+}
+
+.juegos {
+    background-color: $whiteColor;
+    color: $tercaryColor;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 8px;
+    border: 2px solid $primaryColor;
+    margin-bottom: $basic;
+    padding: 8px 0px;
+
+    img {
+        margin: auto;
+    }
+
+    h3 {
+        color: $primaryColor;
+    }
+}
+
+.caja {
+    width: 90%;
+}
+
+.juegos:hover {
+    box-shadow: 0px 0px 20px $primaryColor;
+    box-shadow: 0px 0px 10px $secondayColor;
+}
+
+.main-juegos {
+    background-color: $tercaryColor;
+    color: $whiteColor;
+    padding: $basic;
+
+    h2 {
+        text-align: center;
+        text-shadow: 5px 5px 6px $blackColor;
+        padding-top: $basic;
+        padding-bottom: $basic;
+    }
+}

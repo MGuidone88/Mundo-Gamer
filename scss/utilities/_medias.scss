@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 22px
+        }
+
+        img {
+            // height: 40px;
+            // width: 40px;
+            @include tamaño (40px, 40px);
+        }
+    }
+
+    footer div h4 {
+        font-size: $basic;
+    }
+
+    footer div h3 {
+        font-size: $basic;
+    }
+
+    .main-noticias section article {
+        flex-direction: column;
+    }
+
+    .noticias {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4px;
+        margin: 0px;
+    }
+
+    .main-noticias section article img {
+        width: $full;
+    }
+}
+
+@media (max-width: 780px) {
+    .main-noticias section article {
+        flex-direction: column;
+        max-width: $full;
+
+        img {
+            width: $full;
+        }
+    }
+}

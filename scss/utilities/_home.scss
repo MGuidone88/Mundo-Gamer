@@ -1,0 +1,37 @@
+
+.main-home {
+    margin: auto;
+    padding: $basic;
+    background-color: $tercaryColor;
+    color: $whiteColor;
+}
+
+/*PAGINA HOME*/
+.main-home {
+    h2 {
+        text-align: center;
+        text-shadow: 5px 5px 6px black;
+        padding-top: $basic;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: $secondayColor;
+        text-align: center;
+        padding: $basic;
+        text-shadow: 5px 5px 6px black;
+    }
+}
+
+.home {
+    margin: 8px;
+    padding: 8px;
+
+    p {
+        padding-bottom: 8px;
+    }
+}
+
+.texto {
+    text-align: justify;
+}

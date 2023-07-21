@@ -1,0 +1,50 @@
+
+/*CONTACTO*/
+.main-contacto {
+    background-color: $tercaryColor;
+    color: $whiteColor;
+    padding-bottom: $basic;
+    padding-top: $basic;
+
+    h2 {
+        text-align: center;
+        text-shadow: 5px 5px 6px $blackColor;
+        padding-top: $basic;
+        padding-bottom: $basic;
+    }
+
+    form {
+        margin-bottom: $basic;
+
+        label {
+            padding: 8px 0px;
+        }
+
+        input {
+            @include tamaño ($full, 30px);
+            cursor: pointer;
+        }
+
+        textarea {
+            resize: none;
+            width: $full;
+        }
+    }
+}
+
+.botonEnviar {
+    background: $whiteColor;
+    color: $primaryColor;
+    border: 2px solid $primaryColor;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    align-items: center;
+    width: 80px;
+    margin: auto;
+}
+
+.ancho {
+    display: block;
+    width: $full;
+}
