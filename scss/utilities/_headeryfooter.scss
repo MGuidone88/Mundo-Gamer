@@ -18,9 +18,9 @@ header {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: map-get($sizes, font-size );
         color: $primaryColor;
-        font-weight: 700;
+        font-weight: map-get($sizes, font-weight );
         display: inline-block;
         text-shadow: 0px 0px 5px black;
         transition: 4s ease-in;
