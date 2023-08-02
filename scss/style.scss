@@ -1,3 +1,4 @@
+@import "./utilities/reset"
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./utilities/extend";
@@ -9,12 +10,4 @@
 @import "./utilities/noticias";
 @import "./utilities/contacto";
 @import "./utilities/medias";
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
